@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>children</title>
+</head>
+<body >
+	<h1>formulario de contacto</h1>
+	<form action="index.html" method="post"> <!--etiqueta de inicio del formulario-->
+	
+	<p>ingrese su nombre <br><input type="text" name="nombre" size="30" maxlength="50"></p> <!--campo de formulario normal-->
+
+	<p> 
+		<label for="nombre"> ingrese su nombre:</label><br> <!--etiqueta para relacionr campo con el nombre-->
+
+		<input type="text" name id="nombre" size="30" maxlength="50" placeholder="jovanny bermudez">
+	</p>	
+
+<p>
+		
+	<label for="contrasena"> ingrese su contraseña:</label><br><!--CAMPO DE TIPO CONTRASEÑA-->
+
+	<input type="password" name="contrasena" id="contrasena" id="contraseña" size="30" maxlength="20">
+</p>
+
+	<h4>indique su genero</h4>
+ <p>
+	<input type="radio" name="genero" id="genero-hombre" value="homblre" >
+	<label for="genero-hombre"> hombre:</label> <br> <!--campo de tipo seleccion unica opcion-->
+
+	<input type="radio" name="genero" id="genero-mujer" value="mujer">
+	<label for="genero-mujer"> mujer:</label>
+</p>
+
+<p>
+	<h3>dias disponibles:</h3>	<!--campo de seleccion multiple-->
+	
+		<input type="checkbox" name="dias" id="dias-lunes" value="lunes"> 
+		<label for="dias-lunes">lunes</label><br>
+
+		<input type="checkbox" name="dias" id="dias-martes" value="martes"> 
+		<label for="dias-martes">martes</label><br>
+
+		<input type="checkbox" name="dias" id="dias-miercoles" value="miercoles"> 
+		<label for="dias-miercoles">miercoles</label><br>
+
+		<input type="checkbox" name="dias" id="dias-jueves" value="jueves"> 
+		<label for="dias-jueves">jueves</label><br
+	
+</p>
+
+	<p>
+    	
+    	<label for="tuemail">tu email</label>
+    	<input type="email" name="mail" id="tuemail" required >
+    </p>
+
+    <p>
+    	
+    	<label for="web">ingrese su web</label><br>
+    	<input type="url" name="mail" id="web" required placeholder="http://www.tusitio.com">
+    </p>
+
+	<p>
+		<input type="submit" value="envia tus datos"><!--boton enviar datos-->
+		<input type="reset" value="limpiar"><!--campo limpiar-->
+
+    </p>
+
+    
+
+
+
+
+
+
+			
+	</form>
+
+	
+</body>
+</html>
