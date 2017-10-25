@@ -13,7 +13,7 @@
 	<p> 
 		<label for="nombre"> ingrese su nombre:</label><br> <!--etiqueta para relacionr campo con el nombre-->
 
-		<input type="text" name id="nombre" size="30" maxlength="50" placeholder="jovanny bermudez">
+		<input type="text" name id="nombre" size="30" maxlength="50" placeholder="jovanny bermudez" autofocus>
 	</p>	
 
 <p>
@@ -52,14 +52,90 @@
 	<p>
     	
     	<label for="tuemail">tu email</label>
-    	<input type="email" name="mail" id="tuemail" required >
+    	<input type="email" name="mail" id="tuemail"  >
     </p>
 
     <p>
     	
     	<label for="web">ingrese su web</label><br>
-    	<input type="url" name="mail" id="web" required placeholder="http://www.tusitio.com">
+    	<input type="url" name="mail" id="web"  placeholder="http://www.tusitio.com"><!--colocar texto de fondo-->
     </p>
+
+    <p>
+    	<label for="telefono">ingrese su telefono</label><br>
+    	<input type="tel" name="telefono" id="telefono" placeholder="3142316189">
+    </p>
+
+    <p>
+    	<label for="buscar">buscar:</label><br>
+    	<input type="search" placeholder="ingrese su busqueda">
+    </p>
+
+    <p>
+    	<label for="numero">ingrese un numero</label><br>
+    	<input type="number" name="numero" min="2" max="10" step="1">
+    </p>
+
+    <p>
+    	<label for="exeriencia">ingrese un numero</label><br>
+    	<input type="range" name="experiencia" min="0" max="10" >
+    </p>
+
+
+    <p>
+    	<label for="fecha-naci">fecha de nacimiento</label><br>
+    	<input type="date" name="fecha-naci" id="fecha-naci">
+    </p>
+
+    <p>
+    	<label for="hora">hora de recogida</label><br>
+    	<input type="time" name="time" id="hora" value="12:00">
+    </p>
+
+    <p>
+    <label for="micolor">que color quires</label><br>
+    <input type="color" name="mi" inputmode="micolor">
+
+	</p>
+
+	<p>
+		<label for="bio">haga su consulta</label><br>
+		<textarea name="bio" id="bio" cols="10" rows="2" maxlength="40"></textarea><!--campo de caja de texto-->
+
+	</p>
+
+	<p>
+		<label for="curso">indique su curso</label><br>
+		<select name="curso" id="cuso" >
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+
+
+
+		</select>	
+
+		<p>
+			<label for="publicidad">como nos conosiste</label>
+			<select name="publicirad" id="publicidad">
+				
+				<optgroup label="primero">
+					<option value="101">101</option>
+					<option value="102">102</option>
+				</optgroup>
+
+				<optgroup label="segundo">
+					<option value="201">201</option>
+					<option value="202">202</option>
+				</optgroup>
+
+
+			</select>
+		</p>	
+
+	</p>
+
 
 	<p>
 		<input type="submit" value="envia tus datos"><!--boton enviar datos-->
