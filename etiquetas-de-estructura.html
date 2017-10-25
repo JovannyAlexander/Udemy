@@ -4,43 +4,78 @@
 	<meta charset="UTF-8">
 	<title>etiquetas de estructura</title>
 </head>
-<body>
-	<header><!--se utiliza para texto introductorio,autor,fecha de publicacion etc..-->
-		<h1>encabezado del sitio</h1>
-		<nav><!--se utiliza para menus de navegacion-->
-			<ul>
-				<li>
-					<a href="etiquetas-de-estructura.html">inicio</a><br>
-					<a href="nosotros.html">quienes somos</a><br>
-					<a href="servicio.html">servicios</a><br>
-					<a href="contacto">contacto</a><br>
-				</li>
+<body style="background:#58FAAC">
+	<div id="contenedor" style="background:#DF013A; border:10px solid:#000000; margin:5px;">
+		<header><!--se utiliza para texto introductorio,autor,fecha de publicacion etc..-->
 
-			</ul>
-		</nav>
-	</header>
+			<section>
+				<div class="logo">
+					<img src="logo2.jpeg" alt="puta">
+				</div>
+			</section>
 
-	<main> <!-- sirve para encerrar el area principal de la pagina-->	
-		<article><!--sirve para encerrar contenido de valor-->
 
-			<header><h1>ARCHIPIELGOS EN BARCELONA</h1>
+			<div style="background: #EFFBFB; border-style:5px  solid:#0040FF">
+				<h1>encabezado del sitio</h1>
+				<section>
+					<nav ><!--se utiliza para menus de navegacion-->
+						<ul>
+							<li>
+								<a href="etiquetas-de-estructura.html">inicio</a><br>
+								<a href="nosotros.html">quienes somos</a><br>
+								<a href="servicio.html">servicios</a><br>
+								<a href="contacto">contacto</a><br>
+							</li>
+
+						</ul>
+					</nav>
+				</section>
+			</div>
+		</header>
+
+		<main> <!-- sirve para encerrar el area principal de la pagina-->
+
+			<article><!--sirve para encerrar contenido de valor-->
+
+				<header><h1>ARCHIPIELGOS EN BARCELONA</h1>
+					<p>
+						publicado por jovanny el 15 de julio 2015 <time datetime="2015-07-15"></time>
+					</p></header>
+
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae corporis et explicabo? A sunt quaerat, ex maiores. Ea ab non, porro atque natus exercitationem iusto cum sit tempore modi. Quae?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae corporis et explicabo? A sunt quaerat, ex maiores. Ea ab non, porro atque natus exercitationem iusto cum sit tempore modi. Quae?
+					</p>
+
+				</article>
+
+
+			</main>	
+			<aside><!--se utiliza para el contenido secundario-->	
+				<h1>INFORMACION COMLEMENTARIA</h1>
+				<P>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum suscipit possimus sed aperiam nisi dolorem cupiditate, explicabo. Error fugiat officiis optio tenetur, illum pariatur veniam, corporis, voluptatem fuga dolor incidunt.
+				</P>
+				<ul>
+					<li>enlaces</li>
+					<li>enlaces</li>
+					<li>enlaces</li>
+					<li>enlaces</li>
+					<li>enlaces</li>
+				</ul>
+			</aside> 
+
+			<footer><!--se utiliza para encerrar el pie de pagina (se puede utilizar en cualquier etiqueta)-->
 				<p>
-					publicado por jovanny el 15 de julio 2015 <time datetime="2015-07-15"></time>
-				</p></header>
-
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae corporis et explicabo? A sunt quaerat, ex maiores. Ea ab non, porro atque natus exercitationem iusto cum sit tempore modi. Quae?
+					<small>lodos los derecros reservados </small>
 				</p>
+			</footer role="contentinfo">
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae corporis et explicabo? A sunt quaerat, ex maiores. Ea ab non, porro atque natus exercitationem iusto cum sit tempore modi. Quae?
-				</p>
-
-			</article>
-
-
-		</main>	
+		</div>
 
 	</body>
 	</html>
