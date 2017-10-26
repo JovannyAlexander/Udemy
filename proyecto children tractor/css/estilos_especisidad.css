@@ -1,0 +1,17 @@
+
+
+p{
+	background: red;
+}
+
+div.peligro p{
+	background: blue;
+}
+
+div#cuidado p{
+	background: orange;
+}
+
+body#inicio div p{
+	background: yellow;
+}
