@@ -1,19 +1,36 @@
 
 
-p{
-	background: red;
+/*	background: red;
 }
 
-div.peligro p{
+h2{
 	background: blue;
 }
 
-div#cuidado p{
-	background: orange;
+.principal{ /* SELECTOR DE CLASE*/
+	background: red;
 }
 
-body#inicio div p{
-	background: yellow;
+.introduccion{
+	background: blue;
+	color: white;
+	font-style: italic;
 }
-div[class="externo"]
-a:hover{}
+.error{
+	background: red;
+	color:white;
+	text-align: center;
+	padding: 20px;
+}
+.especial{
+	border: 4px solid black;
+}
+.info{
+	font-weight: bold;
+}
+
+#piedepagina{
+	background: blue;
+	text-align: center;
+	color: whithe;
+}
